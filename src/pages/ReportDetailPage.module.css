@@ -1,0 +1,138 @@
+.container {
+  padding: 40px;
+  background-color: #121212;
+  color: #ffffff;
+  min-height: calc(100vh - 75px);
+  max-width: 1200px;
+  margin: auto;
+}
+
+.backLink {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.header {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 15px;
+}
+
+.grid {
+  display: grid;
+  gap: 30px;
+}
+
+.mainDetails,
+.descriptionSection,
+.multimediaSection {
+  background-color: #1e1e1e;
+  padding: 25px;
+  border-radius: 8px;
+  border: 1px solid #333;
+}
+
+.detailItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.detailItem:last-child {
+  border-bottom: none;
+}
+
+.label {
+  color: #aaaaaa;
+  font-weight: 600;
+}
+
+.value {
+  color: #e0e0e0;
+  text-align: right;
+}
+
+.status {
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #121212;
+}
+.statusVerified {
+  background-color: #28a745;
+}
+
+.sectionHeader {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #e0e0e0;
+  font-size: 1.2rem;
+}
+
+.descriptionSection p {
+  line-height: 1.6;
+  color: #cccccc;
+}
+
+.mediaGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.mediaItem img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.mediaItem a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.message {
+  text-align: center;
+  padding: 40px;
+  color: #aaaaaa;
+  font-size: 1.1rem;
+}
+
+/* ... keep existing styles ... */
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+  gap: 15px;
+}
+
+.logSuspectButton {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  text-align: center;
+}
+
+.logSuspectButton:hover {
+  background-color: #218838;
+}
+
+.header {
+  margin-bottom: 0; /* Adjust margin since it's in a flex container */
+}

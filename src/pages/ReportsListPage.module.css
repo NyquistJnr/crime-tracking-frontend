@@ -1,0 +1,72 @@
+.container {
+  padding: 40px;
+  background-color: #121212;
+  color: #ffffff;
+  min-height: calc(100vh - 75px);
+}
+
+.header {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.tableContainer {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  overflow-x: auto;
+}
+
+/* Identical table styles from AdminDashboard can be used or defined here */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.th,
+.td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #333;
+}
+
+.th {
+  color: #aaaaaa;
+  font-weight: 600;
+}
+
+.td {
+  color: #e0e0e0;
+}
+
+.statusVerified {
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #121212;
+  background-color: #28a745;
+}
+
+.button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  text-align: center;
+  padding: 40px;
+  color: #aaaaaa;
+  font-size: 1.1rem;
+}

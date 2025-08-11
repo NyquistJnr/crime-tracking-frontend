@@ -1,0 +1,151 @@
+.container {
+  padding: 40px;
+  background-color: #121212;
+  color: #ffffff;
+  min-height: calc(100vh - 75px);
+  max-width: 900px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.subHeader {
+  text-align: center;
+  color: #aaaaaa;
+  margin-bottom: 40px;
+}
+
+.searchForm {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.searchInput {
+  flex-grow: 1;
+  padding: 15px;
+  background-color: #2c2c2c;
+  border: 1px solid #444;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.searchButton {
+  padding: 15px 25px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.searchButton:hover {
+  background-color: #0056b3;
+}
+
+.searchButton:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
+
+.resultsContainer {
+  margin-top: 20px;
+}
+
+.resultsHeader {
+  font-size: 1.25rem;
+  color: #e0e0e0;
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.recordCard {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+
+.recordHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.recordHeader h3 {
+  margin: 0;
+  color: #007bff;
+}
+
+.recordDate {
+  font-size: 0.8rem;
+  color: #aaaaaa;
+}
+
+.recordDescription {
+  color: #cccccc;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.recordFooter {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  border-top: 1px solid #2a2a2a;
+  padding-top: 15px;
+}
+
+.message {
+  text-align: center;
+  padding: 40px;
+  color: #aaaaaa;
+  font-size: 1.1rem;
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+.error {
+  color: #d8000c;
+  background-color: #2a2020;
+  border-color: #d8000c;
+}
+
+/* ... other styles ... */
+
+.recordCard {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  cursor: pointer; /* Add cursor pointer */
+  transition: transform 0.2s, border-color 0.2s; /* Add transition */
+}
+
+/* Add a hover effect */
+.recordCard:hover {
+  transform: translateY(-3px);
+  border-color: #007bff;
+}
+
+/* ... other styles ... */
